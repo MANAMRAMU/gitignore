@@ -1,8 +1,15 @@
 #ignoring single file
 new-file.txt
 
-#ignoring folder
+#ignoring folder because bin will be creted automatically for project cloners
 bin/
 
 #all file extensions with .tmp
 *.tmp
+
+#ignoring dependancy folders like node_modules/   they can be installed locally and they are large
+#compiled and log files like *.pyc *.log
+#Hidden OS files like Thumbs.db or .DS_Store
+
+
+#some websites for programming language templates are gitignore.io 2) github.com/github/gitignore
